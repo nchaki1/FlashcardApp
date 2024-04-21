@@ -1,3 +1,13 @@
+.title, .prompt, .answer{
+    text-align: center;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .title{
-    border-bottom: solid 3px green;
+    border-bottom: solid 3px rgb(0, 183, 255);
+}
+
+.prompt, .answer{
+    border: solid 3px rgb(0, 183, 255);
 }
