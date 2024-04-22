@@ -9,6 +9,14 @@
 .formElement{
     padding:3%;
     border: solid 3px rgb(0, 183, 255);
+    font-size: 14pt;
+}
+
+.textbox{
+    height: 30px;
+    width: 400px;
+    font-size: 12pt;
+    margin-top: 3%;
 }
 
 .prompt, .answer{
