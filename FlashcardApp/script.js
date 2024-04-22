@@ -1,5 +1,6 @@
 const prompt = document.querySelector(".prompt")
 const answer = document.querySelector(".answer")
+const category = document.querySelector(".category")
 const showButton = document.querySelector(".show")
 const nextButton = document.querySelector(".next")
 
@@ -8,6 +9,10 @@ let questions = {
     "Cat":"Cats are furry",
     "Snail":"Snails are slow"
 }
+
+let categories = ["Animals", "Not Animals"]
+
+category.innerHTML = `<h2>${categories[0]}</h2>`
 
 let terms = Object.entries(questions)
 
