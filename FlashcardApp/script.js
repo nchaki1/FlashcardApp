@@ -19,8 +19,8 @@ function selectTerm() {
 
 showButton.addEventListener('click', function() {
     answer.style.display = "block"
-});
+})
 
 nextButton.addEventListener('click', function() {
     console.log("You clicked next button")
-});
+})
