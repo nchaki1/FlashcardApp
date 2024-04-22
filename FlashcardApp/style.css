@@ -1,4 +1,4 @@
-.category, .prompt, .answer, .buttons, .newcard{
+.category, .prompt, .answer, .buttons, .formElement{
     text-align: center;
     margin: auto;
     margin-top: 2%;
@@ -6,8 +6,8 @@
     width: 25%;
 }
 
-.newcard{
-    padding:5%;
+.formElement{
+    padding:3%;
     border: solid 3px rgb(0, 183, 255);
 }
 

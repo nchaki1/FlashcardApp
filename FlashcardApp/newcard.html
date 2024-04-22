@@ -3,20 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Create new flashcard</title>
+    <title>Flashy Flashcard App</title>
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <form class="newcard">
-        <div>
+    <h2 class="category">Add New Flashcard</h2>
+
+    <form>
+        <div class="formElement">
             <label for="newprompt">Enter the new question: </label>
             <input type="text" name="New prompt">
+        </div>
+
+        <div class="formElement">
+            <label for="newanswer">Enter the new answer: </label>
+            <input type="text" name="New answer">
         </div>
 
         <div class="buttons">
             <button>Add Card</button>
         </div>
-
     </form>
 </body>
 </html>
