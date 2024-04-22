@@ -22,5 +22,6 @@ showButton.addEventListener('click', function() {
 })
 
 nextButton.addEventListener('click', function() {
-    console.log("You clicked next button")
+    selectTerm()
+    answer.style.display = "none"
 })
