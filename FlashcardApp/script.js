@@ -1,13 +1,11 @@
-const prompt = document.querySelector(".prompt")
-const answer = document.querySelector(".answer")
+const cards = document.querySelector(".cards")
 const category = document.querySelector(".category")
-const showButton = document.querySelector(".show")
-const nextButton = document.querySelector(".next")
 
 let questions = {
     "Dog":"Dogs are barky",
     "Cat":"Cats are furry",
-    "Snail":"Snails are slow"
+    "Snail":"Snails are slow",
+    "Bee":"Bees are busy"
 }
 
 let categories = ["Animals", "Not Animals"]
@@ -19,7 +17,7 @@ let terms = Object.entries(questions)
 function displayTerms() {
     let x = 0
     for (term in terms) {
-        console.log(terms[x][0])
+        cards.insertAdjacentHTML('beforeend', `<div class="cards"><h3>${terms[x][0]}</h3><h3>${terms[x][1]}</h3></div>`)
         x += 1;
     }
 }
