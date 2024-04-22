@@ -6,7 +6,7 @@
     <title>Flashy Flashcard App</title>
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
-<body onload="displayTerms()">
+<body onload="selectTerm()">
     <h2 class="category">Flashcard Category</h2>
 
     <div class="prompt">
@@ -17,8 +17,11 @@
         <h3>Answer</h3>
     </div>
 
-    <a href="newcard.html" class="links">Add a new card</a>
+    <div class="buttons">
+        <button class="show">Show Answer</button>
+        <button class="next">Next Card</button>
+    </div>
 
-    <script src="script.js"></script>
+    <script src="viewcardscript.js"></script>
 </body>
 </html>
