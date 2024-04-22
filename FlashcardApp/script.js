@@ -1,9 +1,10 @@
-const term = document.querySelector(".term");
-const flipButton = document.querySelector(".flip");
+const prompt = document.querySelector(".prompt");
+const answer = document.querySelector(".answer")
+const showButton = document.querySelector(".show");
 const nextButton = document.querySelector(".next");
 
-flipButton.addEventListener('click', function() {
-    console.log("You clicked flip button");
+showButton.addEventListener('click', function() {
+    answer.style.display = "block";
 })
 
 nextButton.addEventListener('click', function() {
