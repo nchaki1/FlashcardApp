@@ -4,9 +4,9 @@ const showButton = document.querySelector(".show")
 const nextButton = document.querySelector(".next")
 
 let questions = {
-    "Dog":"barky",
-    "Cat":"furry",
-    "Snail":"slow"
+    "Dog":"Dogs are barky",
+    "Cat":"Cats are furry",
+    "Snail":"Snails are slow"
 }
 
 let terms = Object.entries(questions)
