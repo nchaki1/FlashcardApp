@@ -1,13 +1,9 @@
-.title, .prompt, .answer, .flipbutton{
+.title, .prompt, .answer, .buttons{
     text-align: center;
     margin: auto;
     margin-top: 2%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 25%;
-}
-
-.title{
-    font-style: bold;
 }
 
 .prompt, .answer{
@@ -17,5 +13,6 @@
 button{
     background-color: rgb(0, 183, 255);
     color: black;
-    padding: 2%;
+    padding: 4%;
+    margin-left: 5%;
 }
