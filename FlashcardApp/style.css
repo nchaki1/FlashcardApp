@@ -1,9 +1,14 @@
-.category, .prompt, .answer, .buttons{
+.category, .prompt, .answer, .buttons, .newcard{
     text-align: center;
     margin: auto;
     margin-top: 2%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 25%;
+}
+
+.newcard{
+    padding:5%;
+    border: solid 3px rgb(0, 183, 255);
 }
 
 .prompt, .answer{
