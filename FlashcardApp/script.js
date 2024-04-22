@@ -17,9 +17,9 @@ category.innerHTML = `<h2>${categories[0]}</h2>`
 let terms = Object.entries(questions)
 
 function displayTerms() {
-    let randTerm = terms[0][0]
-
-    terms.forEach(element => {
-        console.log(terms)
-    });
+    let x = 0
+    for (term in terms) {
+        console.log(terms[x][0])
+        x += 1;
+    }
 }
