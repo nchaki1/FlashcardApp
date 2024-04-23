@@ -1,5 +1,6 @@
 const cards = document.querySelector(".cards")
 const category = document.querySelector(".category")
+const cancelButton = document.querySelector(".cancel")
 
 let questions = {
     "Dog":"Dogs are barky",
@@ -21,3 +22,7 @@ function displayTerms() {
         x += 1;
     }
 }
+
+cancelButton.addEventListener('click', function() {
+    displayTerms()
+})
