@@ -7,7 +7,8 @@ const nextButton = document.querySelector(".next")
 let questions = {
     "Dog":"Dogs are barky",
     "Cat":"Cats are furry",
-    "Snail":"Snails are slow"
+    "Snail":"Snails are slow",
+    "Bee":"Bees are busy"
 }
 
 let categories = ["Animals", "Not Animals"]

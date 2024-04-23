@@ -1,6 +1,4 @@
 const cards = document.querySelector(".cards")
-const prompt = document.querySelector(".prompt")
-const answer = document.querySelector(".answer")
 const category = document.querySelector(".category")
 
 let questions = {
