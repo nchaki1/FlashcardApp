@@ -18,7 +18,7 @@ let terms = Object.entries(questions)
 function displayTerms() {
     let x = 0
     for (term in terms) {
-        cards.insertAdjacentHTML('beforeend', `<div class="cards"><h3>${terms[x][0]}</h3></div>`)
+        cards.insertAdjacentHTML('beforeend', `<div class="cards"><h3>${terms[x][0]}</h3></div>`);
         x += 1;
     }
 }
