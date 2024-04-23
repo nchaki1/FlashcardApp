@@ -10,10 +10,11 @@
     text-align: center;
     border: solid 3px rgb(0, 183, 255);
     margin: 2%;
-    width: 25%;
+    width: auto;
     padding: 3%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: grid;
+    display: flex;
+    flex-direction: row;
 }
 
 .formElement{
