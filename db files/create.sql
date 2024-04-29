@@ -1,0 +1,1 @@
+create table flash(prompt not null, answer not null)
