@@ -1,1 +1,1 @@
-create table flash(prompt not null, answer not null)
+create table flash(prompt text not null, answer text not null);
