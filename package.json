@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "express": "^4.19.2",
+    "sqlite3": "^5.1.7",
     "twilio": "^5.0.4"
   },
   "homepage": "https://github.com/nchaki1/FlashcardApp#readme"

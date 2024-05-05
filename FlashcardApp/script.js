@@ -1,8 +1,8 @@
 const cards = document.querySelector(".cards")
 const category = document.querySelector(".category")
 
-const sqlite3 = require('sqlite3')
-var sqlite = require("sqlite3")
+var sqlite = require("sqlite3").verbose();
+
 const db = new sqlite3.Database('./flash.db', sqlite3.OPEN_READWRITE, (err) => {
     if (err) {
       console.error(err.message);
