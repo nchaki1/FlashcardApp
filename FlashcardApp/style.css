@@ -19,7 +19,7 @@
 
 .cards{
     text-align: center;
-    border: solid 3px rgb(74, 105, 93);
+    border: solid 3px rgb(24, 117, 129);
     margin: auto;
     width: auto;
     padding: 3%;
@@ -30,7 +30,7 @@
 
 .formElement{
     padding:3%;
-    border: solid 3px rgb(74, 105, 93);
+    border: solid 3px rgb(24, 117, 129);
     font-size: 14pt;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .prompt, .answer{
-    border: solid 3px rgb(74, 105, 93);
+    border: solid 3px rgb(24, 117, 129);
 }
 
 .answer{
@@ -50,12 +50,17 @@
 }
 
 button{
-    background-color: rgb(74, 105, 93);
-    color: black;
+    background-color: rgb(19, 93, 102);
+    color: rgb(233, 249, 251);
     padding: 4%;
     margin-left: 5%;
 }
 
 body{
-    background-color: rgb(209, 229, 200);
+    background-color: rgb(119, 176, 170);
+    color: rgb(16, 78, 86);
+}
+
+.textbox{
+    background-color: rgb(227, 254, 247);
 }
